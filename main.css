@@ -1,0 +1,734 @@
+*{
+	margin:0;
+	padding:0;
+  
+}
+
+.micro-body,.operating-body{
+	background:#113f67;
+}
+
+.contact-body{
+	background-image: radial-gradient(
+	circle,#448ef6,#00204a);
+	color:black;
+}
+.about-site-body{
+	background:#113f67;
+
+}
+.contact-section{
+  width: 80%;
+}
+
+p{
+  font-family: tahoma;
+  background: #e6e6e6;
+  padding: 10px;
+  border-radius: 7px;
+  
+    page-break-inside: avoid;
+
+}
+.about-site-body p{
+   font-family: arial;
+  background: #d1d1d1;
+  padding: 10px;
+  border-radius: 7px;
+  line-height: 40px;
+  font-size: 23px;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+	padding:10px 25px;
+}
+
+.nav-bar h1{
+	color:white;
+	font:arial;
+	word-spacing: 13px;
+}
+
+p{
+font-size: 20px;
+ page-break-inside: avoid;
+
+}
+
+.nav-bar a{
+	background-color:#34699a;
+	color:black;
+	border-radius: 4px;
+	
+	transition: 0.3s;
+	color:#f8f9fc;
+}
+.nav-bar a:hover{
+	color:black;
+	background:#fbf0f0;
+	
+}
+.nav-bar{
+	background-color: #222831;
+	text-align: center;
+
+}
+.main-body{
+	background-image:
+	radial-gradient(
+		circle,
+		#65c6c4,
+		#113f67
+	);
+}
+
+.nav-bar li{
+	display:inline-block;
+	padding:20px;
+	font:sans-serif;
+	font-size: 23px;
+   page-break-inside: avoid;
+}
+
+.post-span-1 img{
+	
+  width:35%;
+	padding:50px;
+  transition: 0.3s;
+
+}
+.post-span-2 img{
+	
+  width:35%;
+  transition: 0.3s;
+	padding:50px;
+}
+
+
+.post-span-1 img:hover{
+	background-color:#113f67;
+	border-radius: 15px;
+	
+}
+.post-span-2 img:hover{
+	background-color:#113f67;
+	border-radius: 15px;
+}
+
+.main-section{
+	margin-left:10%;
+	width: 80%;
+	margin-top: 2%;
+}
+
+.main-section-OS{
+	margin-top:2.5%;
+	margin-left:12.5%;
+	margin-right: 12.5%;
+  border: 2px solid black;
+    border-collapse: collapse;
+   padding: 25px;
+   background: #f0f3f3;
+   border-radius: 4px;
+
+}
+
+.MC-body{
+	background:#113f67 ;
+	
+}
+
+
+.main-section-MC{
+	margin:2% 12.5%;
+	border: 2px solid black;
+  border-collapse: collapse;
+   padding: 25px;
+   background: #f0f3f3;
+   border-radius: 4px;
+}
+
+.hr{
+	height: 1px;
+	margin: 10px 0 0;
+}
+
+
+
+.about-site-section{
+    margin-top:4.5%;
+	margin-left:15%;
+    width: 70%;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 23px;
+    color:black;
+}
+
+.heading-images{
+	margin-left: 29%;
+	border:2px solid darkgrey;
+	border-collapse: collapse;
+	
+	max-width:45%;
+  min-width:45%;
+   page-break-inside: avoid;
+	
+
+}
+
+#OShead{
+  margin-left: 36%;
+  border:2px solid darkgrey;
+  border-collapse: collapse;
+   page-break-inside: avoid;
+  width:30%;
+ 
+}
+
+#RTOS{
+  margin-left: 34%;
+  border:2px solid darkgrey;
+  border-collapse: collapse;
+  page-break-inside: avoid;
+  width:35%;
+  
+
+}
+.wide-OS-img{
+  margin-left:22% ;
+  border:2px solid darkgrey;
+  border-collapse: collapse;
+   page-break-inside: avoid;
+  width:52%;
+  
+}
+
+.ultra-wide-OS-img{
+ margin-left:0.8% ;
+  border:2px solid darkgrey;
+  border-collapse: collapse;
+  page-break-inside: avoid;
+  width:98%;
+ 
+}
+
+.OS-ultra-tall-scrnshot{
+  margin-left:28% ;
+  border:2px solid darkgrey;
+  border-collapse: collapse;
+   page-break-inside: avoid;
+  width:38%;
+ 
+}
+
+
+.OS-wide-scrnshot{
+  margin-left:13% ;
+ border:2px solid darkgrey;
+  border-collapse: collapse;
+   page-break-inside: avoid;
+  width:74%;
+  
+}
+.OS-tall-scrnshot{
+  margin-left:28% ;
+  border:2px solid darkgrey;
+  border-collapse: collapse;
+   page-break-inside: avoid;
+  width:40%;
+  
+}
+
+
+
+.MC-headings,.OS-headings{
+	font-size: 36px;
+	text-align: center;
+	padding: 0.5%;
+  background: #c82121;
+  border-radius: 10px;
+  margin-top: 7px;
+page-break-after: avoid;
+
+  }
+
+
+.OS-headings1  
+
+   { font-size: 36px;
+  text-align: center;
+  padding: 0.5%;
+  background: #c82121;
+  border-radius: 10px;
+  margin-top: 7px;
+   page-break-after: avoid;
+
+  }
+
+.OS-headings2 
+
+   { font-size: 36px;
+  text-align: center;
+  padding: 0.5%;
+  background: #c82121;
+  border-radius: 10px;
+  margin-top: 7px;
+  page-break-after: avoid;
+
+ }
+ #foot-OS-empty
+ {
+height: 154px;
+
+ }
+
+ #foot-DOS-empty
+ {
+height: 235px;
+
+ }
+
+ #foot-MOS-empty
+ {
+height: 220px;
+
+ }
+
+#foot-about-empty{
+height: 250px;
+}
+
+#foot-contact-empty{
+height: 498px;
+}
+
+#foot-HOME-empty{
+
+  height: 322px;
+}
+#foot-MC-empty{
+
+  height: 110px;
+}
+
+.break-after{
+  page-break-after: always;
+}
+
+.MC-para,.OS-para{
+	padding-bottom: 20px;
+  line-height: 26px;
+ 
+}
+
+.MC-ul,.OS-ul{
+	font-family: arial;
+	font-size: 20px;
+	line-height: 30px;
+
+	}
+
+  
+  .MC-ul,.OS-ul li{
+    background: #e6e6e6;
+    border-radius: 7px;
+    padding: 10px;
+  
+page-break-before: avoid;
+page-break-after: auto;
+
+
+
+  }
+  .MC-ul,.OS-ul h2{
+background: #d3d6db;
+display: inline-block;
+padding: 5px;
+margin:5px 0 30px 0;
+border-radius: 5px;
+
+  }
+  .MC-ul,.OS-ul p{
+    background: white;
+  
+page-break-inside: avoid;
+  }
+
+.ol li{
+	padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    line-height: 30px;
+    page-break-inside: avoid;
+
+}
+.ol h2{
+  background: #d3d6db;
+display: inline-block;
+padding: 5px;
+margin:5px 0 30px 0;
+border-radius: 5px;
+page-break-inside: avoid;
+}
+
+
+#contact-form {
+  
+  width: 65%;
+  
+  margin-left:40%;
+  margin-top:6.5%
+}
+
+input {
+  font-family:sans-serif;
+  font-size: 0.9em;
+  width: 65%;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  margin: 5px 0px;
+  
+  
+  outline: none;
+  color: black;
+  
+  border: solid 1px black;
+  border-bottom: none;
+  border-radius: 3px;
+  
+  }
+
+input:hover {
+  background:;
+  color: ;
+}
+
+textarea {
+  width: 65%;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  outline: none;
+  background-color: #eef2f5;
+  color: #726659;
+  font-family:sans-serif;
+  font-size: 1em;
+  border: solid 1px black;
+  border-radius: 3px;
+  margin-bottom: 7px;
+  }
+#name{
+  font-size: 0.9em;
+  background-color: #eef2f5;
+}
+
+#email{
+  font-size: 0.9em;
+  background-color: #eef2f5;
+}
+
+
+
+#submit {
+  width: 70%;
+  background:white;
+  padding: 0;
+  margin-left: 0px;
+  
+  color:black;
+  font-family:sans-serif;
+  font-size:1em;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  
+  background-color: #ebebe3;
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 2px black;
+  border-radius: 5px;
+  
+}
+
+#submit:hover {
+  background-color: #33313b;
+  color:white;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+.footer{
+	background: #33313b;
+	padding:15px;
+	text-align: center;
+	color:grey;
+    margin-top: 0.3%;
+}
+
+.footer-about-site{
+	background: #33313b;
+	padding:15px;
+	text-align: center;
+	color:grey;
+	margin-top: 13.5%;
+
+}
+
+.footer-contact{
+	background: #33313b;
+	padding:15px;
+	text-align: center;
+	color:grey;
+		margin-top: 8.25%;
+}
+
+.bottom-nav{
+
+margin:2% 0;
+width: 87%;
+}
+
+#bottom-nav-link-FWD{
+margin-bottom:1%;
+background: red;
+color:white ;
+font-weight: bold;
+font-size: 1.5em;
+ border:2px solid black;
+ border-collapse: collapse;
+ border-top-right-radius: 50%;
+ border-bottom-right-radius: 50%;
+ transition: 0.3s;
+ float: right;
+
+}
+#bottom-nav-link-BWD{
+margin-left:14%; 
+margin-bottom:1%;
+background: red;
+color:white ;
+font-weight: bold;
+font-size: 1.5em;
+ border:2px solid black;
+ border-collapse: collapse;
+ border-top-left-radius: 50%;
+ border-bottom-left-radius: 50%;
+ transition: 0.3s;
+float: left;
+}
+
+
+
+
+#bottom-nav-link-FWD:hover{
+background: white;
+color:red ;
+
+  }
+
+  #bottom-nav-link-BWD:hover{
+background: white;
+color:red ;
+
+  }
+
+.clearfix{
+	clear:both;
+}
+
+
+.MC-body input {
+  display: none;
+  visibility: hidden;
+}
+.MC-body label {
+  display: block;
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+  color: white;
+  background: #1e2022;
+  width: auto;
+  height: auto;
+  float: right;
+  transition: 0.3s;
+}
+.MC-body label:hover {
+  color: #1e2022;
+  background: white;
+}
+.MC-body label::before {
+  font-family:monospace;
+  font-weight: bold;
+  font-size: 15px;
+  content: "+";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+
+ 
+}
+
+
+
+.operating-body input {
+  display: none;
+  visibility: hidden;
+}
+.operating-body label {
+  display: block;
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+  color: white;
+  background: #1e2022;
+  width: auto;
+  height: auto;
+  float: right;
+  transition: 0.3s;
+}
+.operating-body label:hover {
+  color: #1e2022;
+  background: white;
+}
+.operating-body label::before {
+  font-family:monospace;
+  font-weight: bold;
+  font-size: 15px;
+  content: "+";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+
+ 
+}
+
+
+
+
+
+
+#expand {
+  height: 0px;
+  overflow: hidden;
+   transition: height 0.12s ease-out;
+  
+}
+
+#toggle:checked ~ #expand {
+  height: auto;
+}
+#toggle:checked ~ label::before {
+  content: "-";
+}
+
+
+#expand1 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.22s ease-out;
+  
+}
+
+#toggle1:checked ~ #expand1 {
+  height: auto;
+}
+#toggle1:checked ~ label::before {
+  content: "-";
+}
+
+
+#expand2 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.22s ease-out;
+  
+}
+
+#toggle2:checked ~ #expand2 {
+  height: auto;
+}
+#toggle2:checked ~ label::before {
+  content: "-";
+}
+
+
+
+#expand3 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.065s ease-out;
+  
+}
+
+#toggle3:checked ~ #expand3 {
+  height: auto;
+}
+#toggle3:checked ~ label::before {
+  content: "-";
+}
+
+
+#expand4 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.2s ease-out;
+  
+}
+
+#toggle4:checked ~ #expand4 {
+ height: auto;
+}
+#toggle4:checked ~ label::before {
+  content: "-";
+}
+
+
+
+
+#expand5 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.3s ease-out;
+  
+}
+
+#toggle5:checked ~ #expand5 {
+  height: auto;
+}
+#toggle5:checked ~ label::before {
+  content: "-";
+}
+
+
+
+
+#expand6 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s ease-out;
+  
+}
+
+#toggle6:checked ~ #expand6 {
+  height: auto;
+}
+#toggle6:checked ~ label::before {
+  content: "-";
+}
+
+
+
+
+
+
+
